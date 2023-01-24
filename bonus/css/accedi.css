@@ -1,0 +1,64 @@
+header{
+    height: 1000px; 
+}
+
+.centered-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 600px;
+    background-color: rgba(234, 234, 234, 0.9);
+    border-radius: 20px;
+}
+
+.sign-in h1{
+    
+    font-size: 36px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.email, .password{
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.email input, .password input{
+    
+    border-radius: 10px;
+    border: none;
+    padding: 14px 32px;
+    margin-top: 10px;
+}
+
+.button-submit button{
+    border: none;
+    border-radius: 8px;
+    height: 44px;
+    width: 130px;
+    background-color: rgb(57, 102, 238);
+    
+}
+
+.button-submit{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.email label, .password label{
+    display: block;
+}
+
+
+
