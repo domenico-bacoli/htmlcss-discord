@@ -1,0 +1,313 @@
+
+.centered-container{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    border: none;
+    border-radius: 20px;
+    height: 36px;
+    padding: 0 16px;
+}
+
+main section:nth-child(2),
+main section:nth-child(4){
+    background-color: rgb(246, 246, 246);
+}
+
+header{
+
+    height: 500px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    
+}
+
+#nav-inner{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 70px;
+    margin-bottom: 100px;
+}
+
+#nav-inner .logo img{
+    width: 90%;
+}
+
+.links ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 30px;
+    list-style-type: none;
+}
+
+.links li{
+     color: white;
+     font-size: 13px;
+}
+
+
+.login .login-button{
+    background-color: white;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+#introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.introduction-title h1{   
+    color: white;
+    font-size: 36px;
+}
+
+.introduction-paragraph{
+    max-width: 600px;
+    text-align: center;
+}
+
+.introduction-paragraph p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.introduction-btn{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.introduction-btn .download-btn{   
+    background-color: white;
+    
+}
+
+.download-btn::before{
+    content: "\2193";
+    font-size: 18px;
+    padding-right: 6px;
+    font-weight: bold;
+}
+
+.introduction-btn .browser-link{
+    background-color: rgb(35, 39, 42);
+    color: white;
+}
+
+main section > .centered-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px; 
+    
+}
+
+.image-standards{
+
+    background-color: rgba(199, 199, 199, 0.4);
+    height: 250px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.content-standards{
+    display: flex;
+    flex-direction: column;
+
+    height: 250px;
+    width: 250px;   
+    gap: 20px;
+}
+
+.title-standards{
+
+    background-color:rgba(0, 0, 0, 0.6);
+    height: 180px;
+    width: 100%;
+}
+
+.paragraph-standards{
+
+    background-color: rgba(255, 0, 0, 0.2);
+    height: 100%;
+}
+
+#fourth-section{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 800px;
+    gap: 30px;
+}
+
+.fourth-section-title{
+
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 500px;
+    height: 30px;
+}
+
+.fourth-section-paragraph{
+    background-color: rgba(255, 0, 0, 0.2);
+    width: 550px;
+    height: 60px;
+}
+
+.fourth-section-image{
+
+    background-color: rgba(199, 199, 199, 0.4);
+    width: 700px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.fourth-section-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+   
+}
+
+.fourth-section-btn button{
+    background-color: rgb(113, 137, 216);
+}
+
+.fourth-section-description-link{
+
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 30px;
+    width: 300px;
+}
+
+footer{
+    background-color: rgb(35, 39, 42);
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+#footer-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    height: 400px;
+    gap: 30px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    gap: 30px;
+}
+
+
+.col{
+    flex-grow: 1; 
+}
+
+.col.col-1{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    gap: 10px;
+}
+
+.col-1-description{
+    
+    background-color: rgb(113, 137, 216);
+    height: 20px;
+    width: 120px;
+}
+
+.col-1-language{
+    background-color: white;
+    height: 20px;
+    width: 80px;
+}
+
+.col-1-social-icon{
+    display: flex;
+
+    height: 20px;
+    width: 120px;
+    gap: 14px;
+}
+
+.social-image{
+    width: 30px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.col ul{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    list-style-type: none;   
+}
+
+.col li{
+
+    background-color: white;
+    height: 10px;
+    width: 80px;
+    
+}
+
+.col li:first-child{
+    background-color: rgb(113, 137, 216);
+}
+
+hr{
+
+    width: 100%;
+    border: 1px solid rgb(113, 137, 216);
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.footer-logo{
+    background-color: white;
+    height: 30px;
+    width: 100px;
+}
+
+.sign-in button{
+
+    background-color: rgb(113, 137, 216);
+    width: 50px;
+    height: 20px;
+    
+}
