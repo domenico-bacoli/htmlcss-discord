@@ -12,6 +12,21 @@
     padding: 0 16px;
 }
 
+.btn a{
+    text-decoration: none;
+}
+
+.browser-link a,
+.links a{
+    color: white;
+    text-decoration: none;
+}
+
+.download-btn a,
+.login-button a{
+    color: black;
+}
+
 main section:nth-child(2),
 main section:nth-child(4){
     background-color: rgb(246, 246, 246);
@@ -30,8 +45,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;  
     height: 70px;
     margin-bottom: 100px;
 }
@@ -46,7 +60,6 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
     gap: 30px;
     list-style-type: none;
 }
@@ -95,11 +108,12 @@ header{
 }
 
 .introduction-btn .download-btn{   
+
     background-color: white;
-    
 }
 
 .download-btn::before{
+
     content: "\2193";
     font-size: 18px;
     padding-right: 6px;
@@ -107,28 +121,32 @@ header{
 }
 
 .introduction-btn .browser-link{
+
     background-color: rgb(35, 39, 42);
     color: white;
 }
 
 .section-inner{
+
     display: flex;
     height: 450px; 
     justify-content: center; 
     align-items: center;
-
 }
 
 .reverse{
+
     display: flex;
     flex-direction: row-reverse;
 }
 
 .image-standards img{
+
     width: 550px;
 }
 
 .content-standards{
+
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -137,10 +155,12 @@ header{
 }
 
 .title-standards h2{
+
     font-size: 30px;  
 }
 
 .paragraph-standards p{
+
     line-height: 1.5;
     font-size: 14px;
 }
@@ -151,53 +171,67 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     height: 1000px;
     gap: 20px;
 }
+
 .fourth-section-title h2{
+
     font-size: 32px;
 }
 
 .fourth-section-paragraph p{
+
     text-align: center;
     line-height: 1.5;
 }
 
 .fourth-section-image img{
+
     width: 100%;
 }
 
 .fourth-section-btn{
+
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 40px 0 0;
     width: 55%;
-
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 .fourth-section-description-link h3{
+
     font-size: 22px;
 }
 
 .fourth-section-btn button{
+
     background-color: rgb(113, 137, 216);
     color: white;
 }
 
+.fourth-section-btn button a{
+
+    color: white;
+}
+
+
 footer{
+
     background-color: rgb(35, 39, 42);
 }
 
 footer ul{
+
     list-style-type: none;
 }
 
 #footer-inner{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -206,6 +240,7 @@ footer ul{
 }
 
 .row{
+
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -213,10 +248,12 @@ footer ul{
 }
 
 .col{
+
     flex-grow: 1; 
 }
 
 .col.col-1{
+
     display: flex;
     flex-direction: column;
     flex-grow: 2;
@@ -224,56 +261,71 @@ footer ul{
 }
 
 .col-1-description{
+
     width: 150px;
 }
 
-.col-1-description strong{ 
+.col-1-description strong{
+
     color: rgb(113, 137, 216);
     font-size: 20px;    
 }
 
 .col-1-language{
+
     display: flex;
 }
 
 .language-image{
+
     display: flex;
     align-content: stretch;
 }
 
 .col-1-language img{
+
     width: 18px;
 }
 
 .language-text{
+
     display: flex;
     align-items: center;
     margin-left: 4px;
 }
 
 .col-1-language .language-text span{
+
     color: white;
     font-size: 10px;
 }
 
 .col-1-language .language-text span::after{
+
     content: "\2304";
     font-size: 14px;
     margin-left: 4px;
 }
 
 .col-1-social-icon{
-    display: flex;
 
+    display: flex;
     height: 20px;
     width: 120px;
     gap: 14px;
 }
 
 .social-image{
+
     width: 30px;
-    background-color: white;
+    
     border-radius: 4px;
+}
+
+.col-1-social-icon i{
+
+    color: white;
+    padding-top: 6px;
 }
 
 .col ul{
@@ -281,26 +333,29 @@ footer ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
-
     list-style-type: none;   
 }
 
 .col li{
+
     color: white;
     font-size: 11px;
     
 }
 
 .col li:first-child{
+
     color: rgb(113, 137, 216);
 }
 
 hr{
+
     width: 100%;
     border: 1px solid rgb(113, 137, 216);
 }
 
 .row-2{
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -308,6 +363,7 @@ hr{
 }
 
 .footer-logo img{
+
     width: 80%;
 }
 
@@ -317,5 +373,14 @@ hr{
     color: white;
     height: 30px;
     width: 100px;
-
+    cursor: pointer;
 }
+
+#footer-inner li a{
+    
+    color: white;
+    text-decoration: none;  
+}
+
+
+
