@@ -1,6 +1,6 @@
 
 .centered-container{
-    max-width: 800px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -198,7 +198,6 @@ main section > .centered-container{
     color: white;
 }
 
-
 footer{
     background-color: rgb(35, 39, 42);
 }
@@ -213,7 +212,7 @@ footer ul{
     justify-content: center;
  
     height: 400px;
-    gap: 30px;
+    gap: 20px;
 }
 
 .row{
@@ -223,7 +222,6 @@ footer ul{
     width: 100%;
     gap: 30px;
 }
-
 
 .col{
     flex-grow: 1; 
@@ -237,16 +235,42 @@ footer ul{
 }
 
 .col-1-description{
-    
-    background-color: rgb(113, 137, 216);
-    height: 20px;
-    width: 120px;
+    width: 150px;
+}
+
+.col-1-description strong{ 
+    color: rgb(113, 137, 216);
+    font-size: 20px;    
 }
 
 .col-1-language{
-    background-color: white;
-    height: 20px;
-    width: 80px;
+    display: flex;
+}
+
+.language-image{
+    display: flex;
+    align-content: stretch;
+}
+
+.col-1-language img{
+    width: 18px;
+}
+
+.language-text{
+    display: flex;
+    align-items: center;
+    margin-left: 4px;
+}
+
+.col-1-language .language-text span{
+    color: white;
+    font-size: 10px;
+}
+
+.col-1-language .language-text span::after{
+    content: "\2304";
+    font-size: 14px;
+    margin-left: 4px;
 }
 
 .col-1-social-icon{
@@ -273,19 +297,16 @@ footer ul{
 }
 
 .col li{
-
-    background-color: white;
-    height: 10px;
-    width: 80px;
+    color: white;
+    font-size: 11px;
     
 }
 
 .col li:first-child{
-    background-color: rgb(113, 137, 216);
+    color: rgb(113, 137, 216);
 }
 
 hr{
-
     width: 100%;
     border: 1px solid rgb(113, 137, 216);
 }
@@ -297,16 +318,15 @@ hr{
   
 }
 
-.footer-logo{
-    background-color: white;
-    height: 30px;
-    width: 100px;
+.footer-logo img{
+    width: 80%;
 }
 
 .sign-in button{
 
     background-color: rgb(113, 137, 216);
-    width: 50px;
-    height: 20px;
-    
+    color: white;
+    height: 30px;
+    width: 100px;
+
 }
